@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding:0;
+	border: 0;
+}
+
+@font-face{
+	font-family: MuseoSans;
+	src: url(font/museosanscyrl/MuseoSansCyrl.otf);
+}
+
+@font-face{
+	font-family: Firasans;
+	src: url(font/firasans/FiraSans-Regular.otf);
+}
+
+body{
+
+	font-family: Firasans;
+	color: #333;
+}
+
+h1{
+	font-family: Firasans;
+	font-size: 20px;
+	line-height: 24px;
+}
+nav{
+	height: 60px;
+	background-color: #fff;
+}
+
+.title-text{
+	max-width: 795px;
+	margin: 0 auto;
+
+}
+.title-text h1{
+	font-family: MuseoSans;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+.title-text p{
+	font-family: Firasans;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.btn{
+	width: 160px;
+	height: 33px;
+	padding: 0;
+	background-color: #F2C94C;
+	color: #333333;
+}
+
+.why-we h1{
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.why-we p{
+	text-align: center;
+	font-size: 16px; 
+	line-height: 19px;
+}
+
+.why-we img {
+	margin-top: 60px;
+	margin-bottom: 16px;
+}
