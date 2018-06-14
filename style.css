@@ -72,3 +72,14 @@ nav{
 	margin-top: 60px;
 	margin-bottom: 16px;
 }
+
+.content-channels{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.channel{
+	max-width: 540px;
+	max-height: 380px;
+	border:1px solid #123;
+
+}
