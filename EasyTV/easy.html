@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="easy.css">
+
+</head>
+<body>
+	<div id="all">
+		<div class="container-fluid">
+
+			<div class="row justify-content-center" >
+
+				<div class="col-md-10 col-sm-10" id="prices">
+					<p class="text-center caption" >Цены и условия</p>
+					<div class="row justify-content-center" >
+						<div class="col-md-7 col-sm-10">
+							<div>
+								Более 1000 каналов в отличном качестве. Больше не нужно перебирать 
+								сайты в поисках любимой озвучки сериала и ждать нудную рекламу казино. 
+								Теперь все последние новинки кино всегда с вами.
+							</div>
+
+							<ul>
+								<li>Гарантия на оборудование</li>
+								<li>Не кардшеринг</li>
+								<li>Не нужна спутниковая тарелка</li>
+							</ul>
+							<div class="comment">	Если вас не устроит количество каналов и контента, мы вернем ваши деньги!</div>
+						</div>
+
+						<div class="col-md-5 col-sm-10" id="img-price">
+							<img src="images/price.png"></p>
+						</div>
+					</div>
+					<div class="row text-center">
+						<div class="col-md-6 col-sm-12">
+							<div id="text-btn">Я — новый клиент</div>
+							<a href="#"><button type="button" class="btn button" id="join-btn">Присоедениться к сервису</button></a>
+						</div>
+
+						<div class="col-md-6 col-sm-12">
+							<div id="text-btn">Уже использую EasyTV</div>
+							<a href="#"><button type="button" class="btn button" id="join-btn">Продлить подписку</button></a>
+						</div>
+					</div>	
+				</div>
+			</div>
+
+			<div class="row justify-content-center" >
+				<div class="col-md-6 col-sm-12 "  id="step1">
+					<p class="text-center caption" >Шаг 1 из 4: Выберите товар</p>
+
+
+					<a href="#"><button type="button" class="btn button" id="step1-btn">
+						<div id="t1">Подписка на 1 месяц </div>
+						<div id="t2">999 руб</div></button>
+					</a>
+					<a href="#"><button type="button" class="btn button" id="step1-btn">
+						<div id="t1">Подписка на 3 месяца</div>
+						<div id="t2">2997 руб</div></button>
+					</a>
+					<a href="#"><button type="button" class="btn button" id="step1-btn">
+						<div id="t1">Подписка на 12 месяцев</div>
+						<div id="t2">11988 руб</div></button>
+					</a>
+
+					<p class="plus"><img src="images/plus.png"></p>
+
+					<div class="row" >
+						<div class="col-md-12 col-sm-12 ">
+							<a href="#">
+								<button type="button" class="btn button" id="step1-btn2">
+
+									<div class="col-md-12 col-sm-12 ">
+
+										<div id="t1">Оборудование</div>
+										<div id="t2">4999 руб</div>
+									</div>
+
+									<div class="col-md-12 col-sm-12 "id="t5">
+										<p><b>Комплект поставки:</b></p></div>
+										<div class="row" >
+						<div class="col-md-12 col-sm-12 ">
+									<div class="col-md-6 col-sm-12" id="t5"  style="min-width: 300px;">
+
+										<p>- сетевой мультимедийный медиаплеер.</p>
+										<p>- кабель HDMI</p>
+										<p>- кабель 3.5mm Mini Jack to ЗRСА composite AV.</p>
+										<p>- адаптер питания 5V 1.5А.</p>
+									</div>
+									<div class="col-md-6 col-sm-12" id="t5" style="min-width: 300px;">										<p>- программируемый пульт ДУ.</p>
+										<p>- элементы питания АА - 2шт.</p>
+										<p>- кабель Ethernet.</p>
+										<p>- руководство по быстрой установке</p>
+
+									</div>
+								</div></div>
+
+								</button>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row justify-content-center" id="log">
+			<div class="col-md-3 col-sm-10">
+				<p>Вас пригласил друг? Введите его логин:
+					<input type="text" class="form-control" required="" placeholder="login"></p>
+				</div>
+				<div class="col-md-3 col-sm-10" style="text-align: right; font-size: 30px; font-style: bold; color: #55A462;">Сумма: 5998 руб</div>
+
+
+
+				<div class="col-md-12 col-sm-12 further" ><a href="#"><button type="button" class="btn button" id="further-btn">Далее</button></a></div>
+
+			</div>
+
+			<div class="row justify-content-center" >
+				<div class="col-md-10 col-sm-12 " id="step2">
+					<p class="text-center caption" >Шаг 2 из 4: Введите личную информацию</p>
+					<form>
+						<div class="row justify-content-center " >
+							<div class="col-md-5 col-sm-10">
+
+								<p><div class="row justify-content-center" >
+									<div class="col-md-2 col-sm-2">
+										<label>ФИО</label>
+									</div>
+									<div class="col-md-10 col-sm-10">
+										<input type="text" class="form-control " required="" placeholder="">
+									</div>
+								</div>
+							</p>
+							<p><div class="row justify-content-center" >
+								<div class="col-md-2 col-sm-2">
+									<label>Логин</label>
+								</div>
+								<div class="col-md-10 col-sm-10">
+									<input type="text" class="form-control " required="" placeholder="Login">
+								</div>
+							</div>
+						</p>
+						<p><div class="row justify-content-center" >
+							<div class="col-md-2 col-sm-2">
+								<label>E-mail</label>
+							</div>
+							<div class="col-md-10 col-sm-10">
+								<input type="text" class="form-control " required="" placeholder="email@example.com">
+							</div>
+						</div>
+					</p>
+
+					<p>
+						<div class="row justify-content-center" >
+							<div class="col-md-2 col-sm-2">
+								<label>Номер</label>
+							</div>
+							<div class="col-md-2 col-sm-2">
+								<select style="border: 1px solid rgba(85, 164, 98, 0.27); height: 33px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25); border-radius: 4px 0 0 4px; ">
+									<option>+7</option>
+									<option>Пункт2</option>
+								</select>
+							</div>
+							<div class="col-md-8 col-sm-8">
+								<input type="text" class="form-control " required="" placeholder="+7(000) 999-99-99">
+							</div>
+						</div>
+					</p>
+				</div>
+
+
+				<div class="col-md-5 col-sm-10">
+					<p><div class="row justify-content-center" >
+						<div class="col-md-2 col-sm-2">
+							<label>Страна</label>
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<input type="text" class="form-control " required="" placeholder="">
+						</div>
+					</div>
+				</p>
+				<p><div class="row justify-content-center" >
+					<div class="col-md-6 col-sm-6 ">
+
+						<div class="row justify-content-center" >
+							<div class="col-md-4 col-sm-4">
+								<label>Город</label>
+							</div>
+							<div class="col-md-8 col-sm-8">
+								<input type="text" class="form-control " required="" placeholder="">
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-md-6 col-sm-6 ">
+						<div class="row justify-content-center" >
+							<div class="col-md-4 col-sm-4">
+								<labelі>Индекс</label>
+							</div>
+							<div class="col-md-8 col-sm-8">
+								<input type="text" class="form-control " required="" placeholder="хххххх">
+							</div>
+						</div>
+					</div>
+				</div>
+			</p>
+			<p><div class="row justify-content-center" >
+				<div class="col-md-2 col-sm-2">
+					<label>Улица</label>
+				</div>
+				<div class="col-md-10 col-sm-10">
+					<input type="text" class="form-control " required="" placeholder="">
+				</div>
+			</div>
+		</p>
+		<p>
+			<div class="row justify-content-center" >
+				<div class="col-md-6 col-sm-6 ">
+
+					<div class="row justify-content-center" >
+						<div class="col-md-4 col-sm-4">
+							<label>Дом</label>
+						</div>
+						<div class="col-md-8 col-sm-8">
+							<input type="text" class="form-control " required="" placeholder="">
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-md-6 col-sm-6 ">
+					<div class="row justify-content-center" >
+						<div class="col-md-4 col-sm-4">
+							<labelі>Квартира</label>
+						</div>
+						<div class="col-md-8 col-sm-8">
+							<input type="text" class="form-control " required="" placeholder="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</p>
+	</div>
+
+</div>
+</form>
+
+<div class="col-md-12 col-sm-10 further" ><a href="#"><button type="button" class="btn button" id="further-btn">Далее</button></a></div>
+</div>
+</div>
+<div class="row justify-content-center" id="step4">
+	<div class="col-md-7 col-sm-10" >
+		<p class="text-center caption" >Шаг 4 из 4: Подтверждение заказа</p>
+
+		<div class="row " >
+			<div class="col-md-4 col-sm-12 bord"  >
+				<p style="font-weight: bold; font-size: 24px;">Товар</p>
+				<p>1. Подписка на 1 месяц - 999 руб</p>
+				<p>2. Оборудование - 4999 руб</p>
+				<p>Сумма - 5998 руб</p>
+			</div>
+			<div class="col-md-4 col-sm-12 bord" >
+				<p style="font-weight: bold; font-size: 24px;">Личная информация</p>
+				<p>ФИО, Логин, </p>
+				<p>Почта, Номер,</p>
+				<p>Страна, Город, Индекс,</p>
+				<p>Улица, Дом, Квартира</p>
+
+			</div>
+			<div class="col-md-4 col-sm-12 bord" >
+				<p style="font-weight: bold; font-size: 24px;">Способ доставки</p>
+			</div>
+		</div>
+
+	</div>
+</div>
+<div class="col-md-12 col-sm-12 further" ><a href="#"><button type="button" class="btn button" id="further-btn">Перейти к оплате</button></a></div>
+
+
+<div class="row justify-content-center" >
+	<div class="col-md-6 col-sm-10 "  id="step1_2">
+		<p class="text-center caption" >Шаг 1 из 4: Выберите товар</p>
+
+
+		<a href="#"><button type="button" class="btn button" id="step1-btn">
+			<div id="t1">Подписка на 1 месяц </div>
+			<div id="t2">999 руб</div></button>
+		</a>
+		<a href="#"><button type="button" class="btn button" id="step1-btn">
+			<div id="t1">Подписка на 3 месяца</div>
+			<div id="t2">2997 руб</div></button>
+		</a>
+		<a href="#"><button type="button" class="btn button" id="step1-btn">
+			<div id="t1">Подписка на 12 месяцев</div>
+			<div id="t2">11988 руб</div></button>
+		</a>
+
+
+		<div class="row justify-content-center" id="log">
+			<div class="col-md-6 col-sm-12"><a href="#"><button type="button" class="btn button" id="further-btn">Далее</button></a>
+			</div>
+			<div class="col-md-6 col-sm-12" style="text-align: right; font-size: 30px; font-style: bold; color: #55A462;">Сумма: 5998 руб</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="row justify-content-center" >
+	<div class="col-md-10 col-sm-10 " id="step2">
+		<p class="text-center caption" >Шаг 2 из 4: Введите личную информацию</p>
+		<form>
+			<div class="row justify-content-center " >
+				<div class="col-md-5 col-sm-12">
+
+					<p><div class="row justify-content-center" >
+						<div class="col-md-2 col-sm-2">
+							<label>ФИО</label>
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<input type="text" class="form-control " required="" placeholder="">
+						</div>
+					</div>
+				</p>
+				<p><div class="row justify-content-center" >
+					<div class="col-md-2 col-sm-2">
+						<label>Логин</label>
+					</div>
+					<div class="col-md-10 col-sm-10">
+						<input type="text" class="form-control " required="" placeholder="Login">
+					</div>
+				</div>
+			</p>
+			<p><div class="row justify-content-center" >
+				<div class="col-md-2 col-sm-2">
+					<label>E-mail</label>
+				</div>
+				<div class="col-md-10 col-sm-10">
+					<input type="text" class="form-control " required="" placeholder="email@example.com">
+				</div>
+			</div>
+		</p>
+
+		<p>
+			<div class="row justify-content-center" >
+				<div class="col-md-2 col-sm-2">
+					<label>Номер</label>
+				</div>
+				<div class="col-md-2 col-sm-2">
+					<select style="border: 1px solid rgba(85, 164, 98, 0.27); height: 33px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25); border-radius: 4px 0 0 4px; ">
+						<option>+7</option>
+						<option>Пункт2</option>
+					</select>
+				</div>
+				<div class="col-md-8 col-sm-8">
+					<input type="text" class="form-control " required="" placeholder="+7(000) 999-99-99">
+				</div>
+			</div>
+		</p>
+	</div>
+</div>
+</form>
+</div>
+<div class="col-md-12 col-sm-12 further" ><a href="#"><button type="button" class="btn button" id="further-btn">Далее</button></a></div>
+</div>
+
+<div class="row justify-content-center" id="step4">
+
+	<div class="col-md-6 col-sm-10" >
+		<p class="text-center caption" >Шаг 3 из 4: Подтверждение заказа</p>
+
+		<div class="row " >
+			<div class="col-md-6 col-sm-12 bord"  >
+				<p style="font-weight: bold; font-size: 24px;">Товар</p>
+				<p>1. Подписка на 1 месяц - 999 руб</p>
+				<p>2. Оборудование - 4999 руб</p>
+				<p>Сумма - 5998 руб</p>
+			</div>
+			<div class="col-md-6 col-sm-12 bord" >
+				<p style="font-weight: bold; font-size: 24px;">Личная информация</p>
+				<p>ФИО, Логин, </p>
+				<p>Почта, Номер,</p>
+				<p>Страна, Город, Индекс,</p>
+				<p>Улица, Дом, Квартира</p>
+
+			</div>
+		</div>
+	</div>
+	<div class="col-md-12 col-sm-12 further" ><a href="#"><button type="button" class="btn button" id="further-btn">Перейти к оплате</button></a></div>
+
+</div>
+</div>
+</body>
+</html>
