@@ -1,22 +1,17 @@
-#all{
-	margin: 0 auto;
-	width: 1280;
 
-
-}
-#prices{
+.prices{
 	color: #333333;
 	margin: 0 auto;
 	font-size: 16px;
 	list-style-image: url(images/ellipse.png);
 	padding:0;
 }
-#prices ul{	
+.prices ul{	
 	padding-left: 20px;
 	padding-top: 20px;
 	padding-bottom: 10px;
 }
-#prices ul li {
+.prices ul li {
 	padding: 5px;
 }
 
@@ -24,11 +19,11 @@
 	font-weight: bolder;
 	padding-bottom: 65px;
 }
-#prices #img-price{
+.prices #img-price{
 	padding-left: 80px;
 }
 
-#join-btn{
+.join-btn{
 	min-width: 250px;
 	max-width: 540px;
 	width: 100%;
@@ -43,16 +38,21 @@
 	margin-bottom: 50px;
 	font-size: 20px;
 }
-#join-btn:hover {
+.join-btn:hover {
     background: #55A462;
     color: #fff;
- } #text-btn{
+ } 
+.join-btn-act{
+    background: #55A462;
+    color: #fff;
+}
+ .text-btn{
 	color: #828282;
 	font-size: 16px;
 	padding-bottom: 10px;
 }
 
-#step1-btn{
+.step1-btn{
 	padding: 0;
 	float: left;
 	color: #4F4F4F;
@@ -65,8 +65,8 @@
 	margin-bottom: 15px;
 	line-height: 100%;
 }
-#step1{text-align: center;}
-#step1-btn2{
+.step1{text-align: center;}
+.step1-btn2{
 	padding: 0;
 	float: left;
 	color: #4F4F4F;
@@ -79,35 +79,35 @@
 	margin-bottom: 15px;
 	line-height: 100%;
 }
-#step1-btn2:hover{
+.step1-btn2:hover{
 	border: 1px solid #55A462;
 }
-#step1-btn:hover{
+.step1-btn:hover{
 	border: 1px solid #55A462;
 }
- #t1{
+.t1{
 	padding-left: 15px;
 	float: left;
 }
- #t2{
+.t2{
 	padding-right: 15px;
 	padding-left: 30px;
 	float: right;
 }
-#step1-btn2 {padding-top: 20px;}
+.step1-btn2 {padding-top: 20px;}
 .plus{
 	clear: both;
 	text-align: center;
 	padding: 20px;
 }
-#t5{
+.t5{
 	padding: 0;
 	text-align: left;
 	clear: both;
 	font-size: 14px;
 	padding: 15px;
 }
-#t5 p{
+.t5 p{
 	margin: 0;
 	padding:0; 
 	list-style: none;
@@ -116,16 +116,16 @@
 
 
 
-#log{
-
+.log{
+	padding: 10px;
 	text-align: left;
 	clear: both;
 
 }
-#log input{
+.log input{
 	margin: 15px auto; 
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);}
-#further-btn{
+.further-btn{
 
 	padding: 0;
 	margin-top: 20px; 
@@ -144,15 +144,15 @@
 	margin: 0 auto;
 	padding-bottom: 50px;
 }
-#step1_2{
+.step1_2{
 	padding-bottom: 50px;
 }
-#step2 input{
+.step2 input{
 	height: 33px;
 	min-width: 100px;
 	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
-#step2 form p{
+.step2 form p{
 	padding: 0;
 	font-weight: 500;
 }
@@ -182,7 +182,7 @@
 	font-weight: bolder;
 	padding-bottom: 25px;
 }
-#step2 label{
+.step2 label{
 	font-weight: 500;
 	float: right;
 }
