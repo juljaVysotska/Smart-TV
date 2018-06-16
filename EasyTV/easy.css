@@ -94,7 +94,9 @@
 	padding-left: 30px;
 	float: right;
 }
-.step1-btn2 {padding-top: 20px;}
+.step1-btn2 {padding: 0;
+	padding-top: 20px;}
+
 .plus{
 	clear: both;
 	text-align: center;
@@ -102,18 +104,17 @@
 }
 .t5{
 	padding: 0;
+	padding-left: 15px;
 	text-align: left;
-	clear: both;
 	font-size: 14px;
-	padding: 15px;
 }
-.t5 p{
+.t5 li{
 	margin: 0;
 	padding:0; 
 	list-style: none;
 	padding-right: 15px;
 	padding-left: 15px;}
-
+.t5 ul {padding: 0}
 
 
 .log{
